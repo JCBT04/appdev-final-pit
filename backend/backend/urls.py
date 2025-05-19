@@ -23,4 +23,3 @@ urlpatterns = [
     path('api/', include('api.urls')),
     path('api-token-auth/', drf_views.obtain_auth_token),
 ]
-
